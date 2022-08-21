@@ -1,0 +1,546 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:rn="http://schemas.rightnow.com/crm/document">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link type="text/css" rel="stylesheet" media="screen" href="../css/global-styles3.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../css/secondary.css" />
+<title>Request more information - Online Master of Science in Management Information Systems - University of South Florida</title>
+
+<script type="text/javascript" src="http://usfmetro.custhelp.com/rnt/rnw/javascript/enduser.js" language="JavaScript"></script>
+
+
+</script><script type="text/javascript"><!--
+
+            var _submit_accepted = false;
+
+            var addr_info = {
+    0: { prov: [] },
+    1: {
+        prov: [
+            { id: 1, label: "AK" },
+            { id: 2, label: "AL" },
+            { id: 3, label: "AR" },
+            { id: 4, label: "AS" },
+            { id: 5, label: "AZ" },
+            { id: 6, label: "CA" },
+            { id: 7, label: "CO" },
+            { id: 8, label: "CT" },
+            { id: 9, label: "DC" },
+            { id: 10, label: "DE" },
+            { id: 11, label: "FL" },
+            { id: 12, label: "FM" },
+            { id: 13, label: "GA" },
+            { id: 14, label: "GU" },
+            { id: 15, label: "HI" },
+            { id: 16, label: "IA" },
+            { id: 17, label: "ID" },
+            { id: 18, label: "IL" },
+            { id: 19, label: "IN" },
+            { id: 20, label: "KS" },
+            { id: 21, label: "KY" },
+            { id: 22, label: "LA" },
+            { id: 23, label: "MA" },
+            { id: 24, label: "MD" },
+            { id: 25, label: "ME" },
+            { id: 26, label: "MH" },
+            { id: 27, label: "MI" },
+            { id: 28, label: "MN" },
+            { id: 29, label: "MO" },
+            { id: 30, label: "MP" },
+            { id: 31, label: "MS" },
+            { id: 32, label: "MT" },
+            { id: 33, label: "NC" },
+            { id: 34, label: "ND" },
+            { id: 35, label: "NE" },
+            { id: 36, label: "NH" },
+            { id: 37, label: "NJ" },
+            { id: 38, label: "NM" },
+            { id: 39, label: "NV" },
+            { id: 40, label: "NY" },
+            { id: 41, label: "OH" },
+            { id: 42, label: "OK" },
+            { id: 43, label: "OR" },
+            { id: 44, label: "PA" },
+            { id: 45, label: "PR" },
+            { id: 46, label: "PW" },
+            { id: 47, label: "RI" },
+            { id: 48, label: "SC" },
+            { id: 49, label: "SD" },
+            { id: 50, label: "TN" },
+            { id: 51, label: "TX" },
+            { id: 52, label: "UT" },
+            { id: 53, label: "VA" },
+            { id: 54, label: "VI" },
+            { id: 55, label: "VT" },
+            { id: 56, label: "WA" },
+            { id: 57, label: "WI" },
+            { id: 58, label: "WV" },
+            { id: 59, label: "WY" } ] }
+};
+
+
+
+              function ma_chg_country(c_menu, p_menu, formelm, reset_si)
+              {
+                  var country_id, i, sz, prov;
+                  var old_val, reset_val;
+
+                  if(reset_si != -1)
+                      old_val = p_menu.options[p_menu.selectedIndex].text;
+
+                  p_menu.length = 0;
+
+                  p_menu.options[0]       = new Option();
+                  p_menu.options[0].text  = '-' + '-';
+                  p_menu.options[0].value = '';
+
+                  if ((country_id = c_menu.options[c_menu.selectedIndex].value) == '')
+                      return;
+
+                  reset_val = 0;
+                  prov = addr_info[country_id].prov;
+                  sz = prov.length;
+                  for (i = 1; i <= sz; i++)
+                  {
+                      if (!prov[i-1].label)
+                          break;
+                      p_menu.options[i]       = new Option();
+                      p_menu.options[i].text  = prov[i-1].label;
+                      p_menu.options[i].value = prov[i-1].id;
+
+                      if(p_menu.options[i].text == old_val)
+                          reset_val = i;
+                  }
+
+                  p_menu.length        = i;
+                  p_menu.selectedIndex = reset_val;
+
+              }
+            function survey_field(id,min, max, type, elements, question_text, force_ranking, counter_default_color, counter_warning_color)
+            {
+              this.id    = id;
+              this.min   = min;
+              this.max   = max;
+              this.type  = type;
+              this.elements = elements;
+              this.question_text = question_text;
+              this.force_ranking = force_ranking;
+              this.counter_default_color = counter_default_color;
+              this.counter_warning_color = counter_warning_color;
+            }
+
+            var _survey_fields = new Array ();
+
+            function _do_submit(form)
+            {
+
+                chk_val = true;
+                chk_val = _check_fields(form.name, fld_data, _fields);
+
+
+                if(chk_val)
+                {
+                   form.p_val_validated.value = 1;
+                   if (form.submit_btn)
+                       form.submit_btn.disabled = 1;
+                }
+
+                return(chk_val);
+
+            }
+
+
+
+
+var fld_data = new field_data(
+"is not an integer.",
+"requires a value.",
+"is not completely specified.",
+"The text entered for \'%s\' exceeds its size limit of %d characters by %d characters.",
+"must only contain valid ascii characters.",
+"does not seem to be a valid email address.",
+"Must contain valid furigana characters",
+"Need to select more options.",
+"Need to select fewer options.",
+"Month",
+"Day",
+"Year",
+"Hour",
+"Minute",
+"^(([-!#$%&\'*+/=?^~`{|}\\w]+(\\.[-!#$%&\'*+/=?^~`{|}\\w]+)*)|(\"[^\"]+\"))@[0-9A-Za-z]+(-[0-9A-Za-z]+)*(\\.[0-9A-Za-z]+(-[0-9A-Za-z]+)*)+$",
+0,
+2015,
+"must not contain either \'<\' or \'>\'",
+"cannot be negative",
+"Field contains too many characters.",
+"Must contain a valid format character.",
+"is not a valid format character.",
+"Must contain a valid number.",
+"is not a valid number.",
+"Must contain a valid alpha-numeric.",
+"is not a valid alpha-numeric.",
+"Must contain a valid letter.",
+"is not a valid letter.",
+"Must contain a valid character.",
+"is not a valid character.",
+"The correct format is",
+"The value you have entered is less than the smallest value allowed for this field.",
+"The value you have entered is greater than the largest value allowed for this field.",
+"is not a valid date.",
+"is not a valid date. Please enter a date in format",
+"MM",
+"DD",
+"YYYY",
+"Minimum year is:",
+"Maximum year is:",
+"Only letters, digits, space, and (,.+#) are valid for %s");
+          //--></script>
+		  
+		  
+</head>
+
+<body>
+
+        
+        <div class="header">
+		<a href="../index.html"><img src="../img/MIS_header.png"/></a>
+        </div><!-- end header -->
+        
+        <div id="navigation">
+        	<ul class="top-navigation">
+            	<li><a href="../about/">About USF</a></li>
+                <li><a href="../program/">Program</a></li>
+                <li><a href="../admissions/">Admissions</a></li>
+                <li><a href="../students/">Students</a></li>
+                <li><a href="../videos/">Videos</a></li>
+ 
+                <li><a href="index.html">Apply Now</a></li>
+            </ul>
+        </div><!-- end navigation -->
+	</div><!-- end header-wrapper -->
+			
+            
+    
+    <div id="content">
+    	<div class="page-title-holder">
+    		<img src="../img/header-apply.jpg" alt="" />
+            <div class="page-title">
+            	<h1 class="page-title-text">Apply</h1>
+            </div>
+         </div>
+         
+         <ul class="breadcrumbs">
+         	<li><a href="../index.html">USF Home</a> &gt;</li>
+            <li><a href="#">Request more information</a></li>
+         </ul>
+     
+         <ul class="secondary-navigation">
+         	<li><a href="index.html">Apply Now!</a></li>
+			<li><a class="active" href="mailing.html">Request More Information</a></li>
+			<li><a href="../about/index.html">About USF</a></li>
+			<li><a href="../about/rankings-accreditation.html">USF Rankings and Accreditation</a></li>
+			<li><a href="../about/privacy-policy.html">Privacy Policy</a></li>							
+         </ul>
+        
+<div class="content-main">
+<h2 class="content-title">Request more information</h2>
+<p>Complete this form for more information and to recieve your <strong>free program brochure</strong>.</p>
+
+<style>
+#leadformwraplong {
+display: block;
+padding: 20px 15px;
+margin: 0 auto;
+background: #0c6b4d url(../img/form_bg_long.jpg)
+}
+
+
+#leadformwraplong p {
+margin: 10px 10px 0px 10px;
+font-size: 1.3em;
+}
+
+form.global_form_long p {
+color: #fff; 
+font-size: 1.3em; 
+line-height:1.5;
+}
+
+form.global_form_long input {
+color: #333;
+width: 280px; 
+border: 1px solid #3ea485; 
+margin: 8px 0; 
+background-color: #fff;
+font-size: 14px;
+height: 18px; 
+padding: 7px 4px;
+}
+
+
+form.global_form_long #submit_form_long {
+width: 290px;
+height: 50px;
+margin-top: 30px;
+background: url(../img/btn-lead-form-long.gif); 
+font-size: 1px;
+text-indent: -9999px;
+border: none;
+}
+
+form.global_form_long #submit_form_long:hover  {
+background: url(../img/btn-lead-form-long.gif) 0 -50px; 
+}
+
+label#privacy_label {color: #fff; margin: 20px 0px -8px 10px;}
+label#privacy_label a {color: #fff; text-decoration: underline;}
+
+</style>
+
+
+<div class="get-started-long">
+<div id="leadformwraplong">
+	
+<form id="header_form" class="global_form_long"  action="http://usfmetro.custhelp.com/ci/documents/submit" name="_main" method="post" onsubmit="return(_do_submit(this))">
+
+<fieldset>		
+<script type="text/javascript"><!--
+var _fields = new Array ();
+//--></script>
+
+<div style="float: left">
+<p>First Name: *</p>
+<p><INPUT name="wf_2_100003" type="TEXT" maxlength="80" size="25"></INPUT><input type="hidden" name="val_wf_2_100003" value="'wf_2_100003','First Name',5,80,1" /><script type="text/javascript"><!--
+ _fields.push(new field('wf_2_100003','First Name',5,80,1));
+//--></script></p>
+</div><!--end left-->
+
+
+<div style="float: right">
+<p>Last Name: *</p>
+<p><INPUT name="wf_2_100002" type="TEXT" maxlength="80" size="25"></INPUT><input type="hidden" name="val_wf_2_100002" value="'wf_2_100002','Last Name',5,80,1" /><script type="text/javascript"><!--
+ _fields.push(new field('wf_2_100002','Last Name',5,80,1));
+//--></script></p>
+</div><!--end right-->
+
+<hr class="clear" />
+
+<div style="float: left">
+<p>Email: *</p>
+<p><INPUT name="wf_2_100004" type="TEXT" maxlength="80" size="25"></INPUT><input type="hidden" name="val_wf_2_100004" value="'wf_2_100004','Email Address (case sensitive)',5,80,5" /><script type="text/javascript"><!--
+ _fields.push(new field('wf_2_100004','Email Address (case sensitive)',5,80,5));
+//--></script></p>
+</div><!--end left-->
+
+<div style="float: right">
+<p>Phone:</p>
+<p><INPUT name="wf_2_100019" type="TEXT" maxlength="40" size="25"></INPUT><input type="hidden" name="val_wf_2_100019" value="'wf_2_100019','Home Phone',5,40,0" /><script type="text/javascript"><!--
+ _fields.push(new field('wf_2_100019','Home Phone',5,40,0));
+//--></script></p>
+</div><!--end right-->
+
+<hr class="clear" />
+
+
+<div style="float: left">
+<p>Mailing Address: *</p>
+<p><INPUT name="wf_2_100020" type="TEXT" maxlength="240" size="25"></INPUT><input type="hidden" name="val_wf_2_100020" value="'wf_2_100020','Street',5,240,1" /><script type="text/javascript"><!--
+ _fields.push(new field('wf_2_100020','Street',5,240,1));
+//--></script></p>
+</div><!--end left-->
+
+<div style="float: right">
+<p>City: *</p>
+<p><INPUT name="wf_2_100021" type="TEXT" maxlength="80" size="25"></INPUT><input type="hidden" name="val_wf_2_100021" value="'wf_2_100021','City',5,80,1" /><script type="text/javascript"><!--
+ _fields.push(new field('wf_2_100021','City',5,80,1));
+//--></script></p>
+</div><!--end right-->
+
+<hr class="clear" />
+
+<div style="float: left">
+<p>State:</p>
+<p><SELECT name="wf_2_100023"> 
+ <option value="">--</option>
+<option value="1">AK</option>
+<option value="2">AL</option>
+<option value="3">AR</option>
+<option value="4">AS</option>
+<option value="5">AZ</option>
+<option value="6">CA</option>
+<option value="7">CO</option>
+<option value="8">CT</option>
+<option value="9">DC</option>
+<option value="10">DE</option>
+<option value="11">FL</option>
+<option value="12">FM</option>
+<option value="13">GA</option>
+<option value="14">GU</option>
+<option value="15">HI</option>
+<option value="16">IA</option>
+<option value="17">ID</option>
+<option value="18">IL</option>
+<option value="19">IN</option>
+<option value="20">KS</option>
+<option value="21">KY</option>
+<option value="22">LA</option>
+<option value="23">MA</option>
+<option value="24">MD</option>
+<option value="25">ME</option>
+<option value="26">MH</option>
+<option value="27">MI</option>
+<option value="28">MN</option>
+<option value="29">MO</option>
+<option value="30">MP</option>
+<option value="31">MS</option>
+<option value="32">MT</option>
+<option value="33">NC</option>
+<option value="34">ND</option>
+<option value="35">NE</option>
+<option value="36">NH</option>
+<option value="37">NJ</option>
+<option value="38">NM</option>
+<option value="39">NV</option>
+<option value="40">NY</option>
+<option value="41">OH</option>
+<option value="42">OK</option>
+<option value="43">OR</option>
+<option value="44">PA</option>
+<option value="45">PR</option>
+<option value="46">PW</option>
+<option value="47">RI</option>
+<option value="48">SC</option>
+<option value="49">SD</option>
+<option value="50">TN</option>
+<option value="51">TX</option>
+<option value="52">UT</option>
+<option value="53">VA</option>
+<option value="54">VI</option>
+<option value="55">VT</option>
+<option value="56">WA</option>
+<option value="57">WI</option>
+<option value="58">WV</option>
+<option value="59">WY</option>
+</SELECT><input type="hidden" name="val_wf_2_100023" value="'wf_2_100023','State/Province',1,10,0" /><script type="text/javascript"><!--
+ _fields.push(new field('wf_2_100023','State/Province',1,10,0));
+//--></script></p>
+</div><!--end left-->
+
+<div style="float: right">
+<p>Postal Code: *</p>
+<p><INPUT name="wf_2_100024" type="TEXT" maxlength="10" size="25"></INPUT><input type="hidden" name="val_wf_2_100024" value="'wf_2_100024','Postal Code',5,10,1" /><script type="text/javascript"><!--
+ _fields.push(new field('wf_2_100024','Postal Code',5,10,1));
+//--></script></p>
+</div><!--end right-->
+
+
+
+<hr class="clear" />
+
+<div style="float: left">
+<p>How did you hear about us? *</p>
+<p><SELECT name="wf_2_102"> 
+ <option value="">--</option>
+<option value="337">Billboard</option>
+<option value="338">Direct Mail</option>
+<option value="339">E-mail Blast</option>
+<option value="340">Employer</option>
+<option value="341">Information Session</option>
+<option value="342">Newspaper</option>
+<option value="343">Radio</option>
+<option value="344">Television</option>
+<option value="345">Referral</option>
+<option value="346">USF Website</option>
+<option value="347">Other</option>
+</SELECT><input type="hidden" name="val_wf_2_102" value="'wf_2_102','Hear about us?',1,19,1" /><script type="text/javascript"><!--
+ _fields.push(new field('wf_2_102','Hear about us?',1,19,1));
+//--></script></p>
+</div><!--end left-->
+
+
+
+
+<div style="float: right">
+<p>
+<input id="submit_form_long" name="submit_btn" value="Submit" type="submit" class="default_submit" rntsubmit="true" />
+<input name="p_t" type="hidden" value="AvUG~wr~Cv8SmRb~Gv8e~yIzJvsq~y7~Mv9z~zr~" />
+<input name="p_shortcut" type="hidden" value="mis_form_long" />
+<input name="_survey_score" type="hidden" value="0" />
+<input name="_last_page_num" type="hidden" value="-1" />
+<input name="p_val_validated" type="hidden" value="0" />
+<script type="text/javascript"><!--
+_fields.push(new field('','',0,0,0));
+ma_chg_country(_main.wf_2_100022, _main.wf_2_100023, _main, 1);
+//--></script>
+</p>
+</form>
+</div><!--end right-->
+
+<hr class="clear" />
+<label for="privacy" id="privacy_label" class="default_label" >We Value Your <a href='about/privacy-policy.html'>Privacy</a></label>
+		
+</div>
+</div>
+
+
+</div><!--end content main-->
+</div><!-- end content -->
+    
+    	<div class="footer-wrapper">
+    	<div id="footer">
+        	<div class="footer-info">
+                <p><a href="http://uc.usf.edu/gradseries/"><img class="footer-usf-logo" src="../img/usf-footer-logo.png" alt="" /></a></p>
+            </div>
+            <div class="footer-links">
+                <ul class="footer-outside-sites">
+				<p class="footer-copy">Copyright &copy; 2012, University of South Florida. All rights reserved.<br />
+                4202 E. Fowler Avenue, SVC1072, Tampa, FL, USA</p>
+				<li><a href="../about/">About Us</a> | <a href="../about/privacy-policy.html">Legal/Privacy Notice</a> | <a href="../about/site-map.html">Sitemap</a> | <a href="../admissions/contact-information.html">Contact Us</a> | <a href="../about/complaint.html" target="_blank">Complaint Resolution</a></li>
+                </ul>
+            </div>
+        </div><!-- end footer -->
+    </div><!-- end footer-wrapper -->
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35400959-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 991687398;
+var google_conversion_label = "WHUtCNqu-gMQ5uXv2AM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/991687398/?value=0&amp;label=WHUtCNqu-gMQ5uXv2AM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+
+<script type="text/javascript">
+    var loc = (("https:" == document.location.protocol) ? "https://analytics." : "http://analytics.");
+    document.write(unescape("%3Cscript src='" + loc + "sitewit.com/sw.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var sw = new _sw_analytics();
+        sw.id='2194';
+        sw.register_page_view();
+</script>
+</body>
+</html>
